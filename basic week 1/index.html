@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: #f5f0fe;
+      }
+
+      img {
+        display: block;
+        margin: 30px auto;
+      }
+      h1 {
+        color: #885df1;
+        font-size: 48px;
+        text-decoration: underline;
+        font-weight: thin;
+        text-align: center;
+      }
+      h2 {
+        color: #272044;
+        text-align: center;
+        font-weight: 100;
+      }
+      p {
+        text-align: center;
+      }
+      button {
+        padding: 15px 20px;
+        color: #7c52ef;
+        display: block;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 40px;
+        margin: 30px auto;
+        border: 1px solid #885df1;
+        background: transparent;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        background: #7c52ef;
+        color: #f5f0fe;
+        cursor: pointer;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+
+        text-align: center;
+      }
+
+      li {
+        display: inline;
+        margin-right: 10px;
+      }
+      .menu-item-coders a {
+        position: relative;
+        text-decoration: none;
+      }
+      .menu-item-coders a:hover:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: blue;
+      }
+      .menu-item-courses a {
+        position: relative;
+        text-decoration: none;
+      }
+      .menu-item-courses a:hover:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: red;
+      }
+      .menu-item-stories a {
+        position: relative;
+        text-decoration: none;
+      }
+      .menu-item-stories a:hover:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: green;
+      }
+      .coders {
+        color: blue;
+      }
+      .courses {
+        color: red;
+      }
+      .stories {
+        color: green;
+      }
+      .socials {
+        color: #885df1;
+      }
+      .contact {
+        text-align: center;
+      }
+      .socials-links {
+        color: black;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>SheCodes</h1>
+    <h2>Coding Workshop</h2>
+    <button class="apply-button">Apply now</button>
+    <ul>
+      <li class="menu-item-coders">
+        <a
+          href="https://www.shecodes.io/students"
+          target="_blank"
+          class="coders"
+          titel="SheCodes Website"
+        >
+          Coders
+        </a>
+      </li>
+      <li class="menu-item-courses">
+        <a
+          href="https://www.shecodes.io/workshops"
+          class="courses"
+          titel="SheCodes Website"
+        >
+          Courses
+        </a>
+      </li>
+      <li class="menu-item-stories">
+        <a
+          href="https://www.shecodes.io/stories"
+          target="_blank"
+          titel="SheCodes Website"
+          class="stories"
+        >
+          Stories
+        </a>
+      </li>
+    </ul>
+    <hr />
+    <h4>More info</h4>
+    <img
+      src="https://media.istockphoto.com/id/1286022854/photo/african-american-woman-writing-computer-code.jpg?s=612x612&w=0&k=20&c=DUGZgnFzzymiccxKKoeFDFO-nDtNUL5rVxpbt2IYk4g="
+      width="300"
+      alt="woman coding"
+    />
+    <div class="contact">
+      <span class="socials"> Email: </span>
+      <span>
+        <a href="hello\@shecodes.io" class="socials-links">
+          hello@shecodes.io
+        </a>
+      </span>
+      <span class="socials"> Instagram: </span>
+      <span>
+        <a href="https://www.instagram.com/shecodes.io/" class="socials-links">
+          @shecodes.io</a
+        >
+      </span>
+    </div>
+  </body>
+</html>
